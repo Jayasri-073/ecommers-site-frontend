@@ -1,0 +1,29 @@
+.admin-layout {
+  display: flex;
+  min-height: calc(100vh - 56px);
+}
+
+.admin-content {
+  flex: 1;
+  padding: 30px;
+  background-color: #f6f6f6;
+}
+
+.stat-icon-wrap {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.admin-table th {
+  white-space: nowrap;
+}
+
+.admin-form-card {
+  max-width: 700px;
+}
